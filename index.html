@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img src="logo.png" alt="" id="header-img" width="250" />
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#">Features</a></li>
+          <li class="nav-link"><a href="#">About Us</a></li>
+          <li class="nav-link"><a href="#">Pricing</a></li>
+        </ul>
+        <!-- User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. -->
+        <!-- User Story #13: The navbar should always be at the top of the viewport. -->
+      </nav>
+    </header>
+
+    <section class="action">
+      <h1>Eco-friendly Yoga mats made for the conscious Yogees</h1>
+      <p>30% discount on your first mat!</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" placeholder="enter your email address" />
+
+        <input class="submit" id="submit" type="submit" value="Get Now" />
+      </form>
+    </section>
+
+    <section class="features">
+      <div class="grid">
+        <i class="fab fa-pagelines fa-5x"></i>
+        <div class="eco">
+          <h2>Eco-friendly Materials</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ab
+            eum similique enim expedita error aperiam placeat. Ipsam quidem
+            quis, nesciunt nam mollitia voluptatem rem, repellat sed expedita
+            qui tempora.
+          </p>
+        </div>
+        <i class="fas fa-fire fa-5x"></i>
+        <div class="perform">
+          <h2>World’s best performing mat</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ab
+            eum similique enim expedita error aperiam placeat. Ipsam quidem
+            quis, nesciunt nam mollitia voluptatem rem, repellat sed expedita
+            qui tempora.
+          </p>
+        </div>
+        <i class="fas fa-award fa-5x"></i>
+        <div class="comfort">
+          <h2>Comfort and durability</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ab
+            eum similique enim expedita error aperiam placeat. Ipsam quidem
+            quis, nesciunt nam mollitia voluptatem rem, repellat sed expedita
+            qui tempora.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <video id="video" controls poster="placeholder.jpg" width="250">
+        <source src="#" type="video/mp4" />
+        Sorry, embedded video is not supported.
+      </video>
+    </section>
+
+    <section class="pricing">
+      <div>
+        <h3>30 days of Yoga for Begginners</h3>
+      </div>
+      <div>
+        <h3>30 days of Yoga for Begginners</h3>
+      </div>
+      <div>
+        <h3>30 days of Yoga for Begginners</h3>
+      </div>
+    </section>
+
+    <!-- User Story #14: My product landing page should have at least one media query. -->
+
+    <!-- User Story #15: My product landing page should utilize CSS flexbox at least once. -->
+    <script
+      src="https://kit.fontawesome.com/bb6e2cb6a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
